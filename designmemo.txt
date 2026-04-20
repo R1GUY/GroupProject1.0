@@ -1,0 +1,15 @@
+a. Who is your target audience for your site? What will their goals be when visiting
+your site?
+
+b. Carefully plan the design for your layout and navigation. Consider drawing sketch
+wireframes. Consider how your design should look/function across screen sizes.
+
+c. Intentionally choose a color scheme for your site and document how you chose it.
+
+d. Document at least three intentional design choices you make for your site with
+your target audience/client in mind.
+
+e. Prior to submission, open your website in at least two different browsers. In your
+memo, document which browsers you tested in, and provide a description of how
+it looked in each? How similar or how different was the appearance in each?
+Anything of notice to comment on?
