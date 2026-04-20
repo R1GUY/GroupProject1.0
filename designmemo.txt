@@ -1,6 +1,7 @@
 a. Who is your target audience for your site? What will their goals be when visiting
 your site?
 
+
 b. Carefully plan the design for your layout and navigation. Consider drawing sketch
 wireframes. Consider how your design should look/function across screen sizes.
 
