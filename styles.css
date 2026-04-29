@@ -83,7 +83,7 @@ footer {
     margin-top: 0;
 }
 
-.hero {
+.welcome {
     text-align: center;
     background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
     color: white;
@@ -92,13 +92,7 @@ footer {
     margin-bottom: 30px;
 }
 
-.hero .tagline {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #ffcc00;
-}
-
-.cta-button {
+.booking-button {
     display: inline-block;
     background-color: #ffcc00;
     color: #000000;
@@ -109,12 +103,11 @@ footer {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.cta-button:hover {
+.booking-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(255, 204, 0, 0.4);
 }
 
-/* Intro Section */
 .intro {
     background-color: #f9f9f9;
     padding: 25px;
@@ -123,7 +116,6 @@ footer {
     border-left: 5px solid #ffcc00;
 }
 
-/* Features Grid */
 .features {
     margin-bottom: 30px;
 }
