@@ -15,5 +15,5 @@ memo, document which browsers you tested in, and provide a description of how
 it looked in each? How similar or how different was the appearance in each?
 Anything of notice to comment on?
 
-LEAVE COMMENTS HERE
+LEAVE COMMENTS HERE:
 
