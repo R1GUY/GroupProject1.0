@@ -1,51 +1,167 @@
-body
-{
+body {
     font-family: arial, sans-serif;
     margin: 0;
+    background-color: #ffffff;
 }
 
-header
-{
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 15px;
+#menu-toggle {
+    display: none;
 }
 
-nav
-{
-    background-color: #cccccc;
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: #ffcc00;
+    padding: 10px 20px;
 }
 
-nav ul
-{
+.menu-logo {
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    background-color: #ffcc00;
+
+    max-height: 0;
+    overflow: hidden;
+
+    transition: max-height 0.4s ease;
+}
+
+#menu-toggle:checked~.nav-menu {
+    max-height: 300px;
+}
+
+.nav-menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.nav-menu li {
+    padding: 12px;
     text-align: center;
 }
 
-nav li
-{
-    display: inline;
-    margin: 10px;
-}
-
-nav a
-{
+.nav-menu a {
     text-decoration: none;
-    color: black;
+    color: #000000;
+    font-weight: bold;
 }
 
-main
-{
+main {
     padding: 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
-footer
-{
-    background-color: #003366;
+h1 {
+    margin: 0;
+}
+
+h2 {
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #000000;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #ffffff;
+
+    border: 2px solid #ffcc00;
+
+    width: 220px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card img {
+    width: 80px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+
+    .header-container {
+        flex-direction: row;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+
+}
+
+form {
+    display: flex;
+
+    flex-direction: column;
+
+    max-width: 500px;
+
+    margin: auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    padding: 8px;
+
+    margin-top: 5px;
+
+    border: 1px solid #000000;
+
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ffcc00;
+
+    font-weight: bold;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+
+    color: #ffcc00;
 }

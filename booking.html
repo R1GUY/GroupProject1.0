@@ -2,9 +2,13 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <title>Titan Tech Support</title>
+
+    <title>Book Service | Titan Tech Support</title>
+
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -17,7 +21,7 @@
 
             <label for="menu-toggle">
 
-                <img src="images/hamburger.png" alt="Menu Logo" class="menu-logo">
+                <img src="images/clash.gif" alt="Menu Logo" class="menu-logo">
 
             </label>
 
@@ -51,35 +55,36 @@
 
     <main>
 
-        <h2>Welcome to Titan Tech Support</h2>
+        <h2>Schedule a Service</h2>
 
-        <p>
-            Titan Tech Support provides fast and affordable tech help
-            for UW–Oshkosh students. We specialize in solving common
-            technology problems so students can stay focused on school.
-        </p>
+        <form>
 
-        <h2>Why Choose Us?</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
 
-        <ul>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
 
-            <li>Fast repairs</li>
+            <label for="device">Device Type:</label>
+            <input type="text" id="device" name="device">
 
-            <li>Affordable student pricing</li>
+            <label for="problem">Problem Description:</label>
 
-            <li>Friendly support</li>
+            <textarea id="problem" name="problem"></textarea>
 
-            <li>Convenient campus service</li>
+            <label for="date">Preferred Date:</label>
 
-        </ul>
+            <input type="text" id="date" name="date">
+
+            <input type="submit" onclick="alert('Request submitted!')" value="Submit">
+
+        </form>
 
     </main>
 
     <footer>
 
-        <p>
-            © 2026 Titan Tech Support
-        </p>
+        <p>© 2026 Titan Tech Support</p>
 
     </footer>
 
