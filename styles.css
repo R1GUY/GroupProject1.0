@@ -135,7 +135,6 @@ footer {
     text-align: center;
     transition: transform 0.3s, border-color 0.3s;
 }
-
 .feature-card:hover {
     transform: translateY(-5px);
     border-color: #ffcc00;
@@ -149,6 +148,34 @@ footer {
 .feature-card p {
     color: #666;
     margin-bottom: 0;
+}
+
+.feature-card-about {
+    background: black;
+    border: 2px solid #e0e0e0;
+    border-top: 6px solid #ffcc00;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.feature-card-about:hover {
+    transform: translateY(-5px);
+    border-color: #ffcc00;
+}
+
+.feature-card-about h3 {
+    color: #ffcc00;
+    margin-top: 0;
+}
+
+.feature-card-about p {
+    color: #dddcdc;
+    margin-bottom: 0;
+    line-height: 1.5;
+    padding: 0 150px 0 0;
+    text-align: left;
 }
 
 /* Services Preview */
