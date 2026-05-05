@@ -2,87 +2,66 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <title>Book Service | Titan Tech Support</title>
-
+    <title>Request Project | Campus Smart Solutions</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body>
 
     <header>
-
         <input type="checkbox" id="menu-toggle">
 
         <div class="header-container">
-
             <label for="menu-toggle">
-
                 <img src="images/hamburger.png" alt="Menu Logo" class="menu-logo">
-
             </label>
-
-            <h1>Titan Tech Support</h1>
-
+            <h1>Campus Smart Solutions</h1>
         </div>
 
         <nav class="nav-menu">
-
             <ul>
-
                 <li><a href="index.html">Home</a></li>
-
                 <li><a href="about.html">About</a></li>
-
                 <li><a href="services.html">Services</a></li>
-
                 <li><a href="resources.html">Resources</a></li>
-
                 <li><a href="booking.html">Booking</a></li>
-
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
         </nav>
-
     </header>
 
     <main>
-
-        <h2>Schedule a Service</h2>
+        <h2>Request a Project or Quote</h2>
 
         <form>
-
             <label for="name">Name:</label>
             <input type="text" id="name" name="name">
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email">
 
-            <label for="device">Device Type:</label>
-            <input type="text" id="device" name="device">
+            <label for="material">Print Material / Parts Needed:</label>
+            <input type="text" id="material" name="material" placeholder="PLA, sensors, Arduino, Raspberry Pi, etc.">
 
-            <label for="problem">Problem Description:</label>
-
-            <textarea id="problem" name="problem"></textarea>
+            <label for="project">Project Description:</label>
+            <input type="text" id="project" name="project">
 
             <label for="date">Preferred Date:</label>
+            <input type="text" id="date" name="date" placeholder="MM/DD/YYYY">
 
-            <input type="text" id="date" name="date">
+            <label for="file">Upload 3D Model or Project File:</label>
+            <input type="file" id="file" name="file">
 
-            <input type="submit" onclick="alert('Request submitted!')" value="Submit">
+            <label for="quantity">Estimated Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" placeholder="1">
 
+            <input type="submit" onclick="alert('Project request submitted!')" value="Submit Request">
         </form>
-
     </main>
 
     <footer>
-
-        <p>© 2026 Titan Tech Support</p>
-
+        <p>© 2026 Campus Smart Solutions</p>
     </footer>
 
 </body>
