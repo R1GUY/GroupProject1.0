@@ -355,7 +355,7 @@ input[type="submit"]:hover {
 }
 
 .card-image img {
-   scale: 1.22;
+    scale: 1.22;
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -409,6 +409,7 @@ input[type="submit"]:hover {
 * {
     box-sizing: border-box;
 }
+
 .service-icon {
     font-size: 55px;
     margin-bottom: 10px;
