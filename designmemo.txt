@@ -1,7 +1,6 @@
 a. Who is your target audience for your site? What will their goals be when visiting
 your site?
 
-
 b. Carefully plan the design for your layout and navigation. Consider drawing sketch
 wireframes. Consider how your design should look/function across screen sizes.
 
@@ -15,5 +14,5 @@ memo, document which browsers you tested in, and provide a description of how
 it looked in each? How similar or how different was the appearance in each?
 Anything of notice to comment on?
 
-LEAVE COMMENTS HERE:
+
 
