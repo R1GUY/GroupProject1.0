@@ -239,55 +239,6 @@ footer {
     color: #ccc;
 }
 
-.services-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.service-card {
-    background-color: #ffffff;
-
-    border: 2px solid #ffcc00;
-
-    width: 220px;
-
-    padding: 15px;
-
-    text-align: center;
-
-    border-radius: 10px;
-
-    transition: transform 0.3s;
-}
-
-.service-card:hover {
-    transform: scale(1.05);
-}
-
-.service-card img {
-    width: 80px;
-    height: auto;
-}
-
-@media (max-width: 768px) {
-
-    .header-container {
-        flex-direction: row;
-    }
-
-    .services-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .service-card {
-        width: 90%;
-    }
-
-}
-
 form {
     display: flex;
 
@@ -407,11 +358,6 @@ input[type="submit"]:hover {
 
 * {
     box-sizing: border-box;
-}
-
-.service-icon {
-    font-size: 55px;
-    margin-bottom: 10px;
 }
 
 .card-emoji {
