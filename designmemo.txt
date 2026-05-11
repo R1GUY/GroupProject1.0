@@ -8,7 +8,8 @@ setting up devices, so the goal of the site is to make getting help quick and si
 When people visit the site, they will mostly want to: See what services are offered
 book an appointment for help, find resources or troubleshooting tips, contact support
 easily, and navigate the website quickly on both phones and computers
-I wanted the website to feel simple, organized, and easy for students to use without feeling confusing or cluttered.
+I wanted the website to feel simple, organized, and easy for students to use without 
+feeling confusing or cluttered.
 
 
 
@@ -38,12 +39,18 @@ d. Document at least three intentional design choices you make for your site wit
 your target audience/client in mind.
 
 Mobile-Friendly Navigation
-I added a hamburger menu for smaller screens because most students will probably use the site on their phones. This helps keep the navigation simple and easier to use on mobile devices.
+I added a hamburger menu for smaller screens because most students will probably use the
+site on their phones. This helps keep the navigation simple and easier to use on mobile 
+devices.
 Service Cards with Images and Icons
-I used service cards with images and icons to help organize information and make the website more visually interesting. This also helps users quickly understand what services are available.
+I used service cards with images and icons to help organize information and make the 
+website more visually interesting. This also helps users quickly understand what services 
+are available.
 Consistent School Branding
-I kept the UW-Oshkosh colors and theme consistent throughout the site to make it feel more professional and familiar to students.
-I also added hover effects and spacing between sections to make the site feel smoother and less crowded.
+I kept the UW-Oshkosh colors and theme consistent throughout the site to make it feel more
+professional and familiar to students.
+I also added hover effects and spacing between sections to make the site feel smoother 
+and less crowded.
 
 
 e. Prior to submission, open your website in at least two different browsers. In your
