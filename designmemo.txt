@@ -1,20 +1,59 @@
 a. Who is your target audience for your site? What will their goals be when visiting
 your site?
 
+The target audience for my website is mainly students at University of Wisconsin–Oshkosh
+who need help with technology problems or just want easier access to tech resources. 
+A lot of students struggle with things like laptops, software, printers, Wi-Fi, or 
+setting up devices, so the goal of the site is to make getting help quick and simple.
+When people visit the site, they will mostly want to: See what services are offered
+book an appointment for help, find resources or troubleshooting tips, contact support
+easily, and navigate the website quickly on both phones and computers
+I wanted the website to feel simple, organized, and easy for students to use without feeling confusing or cluttered.
+
+
+
 b. Carefully plan the design for your layout and navigation. Consider drawing sketch
 wireframes. Consider how your design should look/function across screen sizes.
 
+I planned the layout to be clean and easy to navigate so users can quickly find what they
+need. The navigation bar is at the top of the page and includes links to the main pages 
+like Home, Services, Booking, Resources, About, and Contact.On the homepage, I added a 
+large welcome section along with service cards that explain the different types of tech 
+support offered. I tried to separate content into sections so the page does not feel 
+crowded. For smaller screens like phones and tablets, the navigation switches into a 
+hamburger menu to make it easier to use on mobile devices. I also used responsive design
+techniques like Flexbox and media queries so images and sections resize correctly on 
+different screen sizes.My main goal with the layout was to keep everything simple, 
+organized, and easy to use for college students.
+
+
 c. Intentionally choose a color scheme for your site and document how you chose it.
-I just chose the color scheme from the UW-Oshkosh Brand page
+
+I chose the color scheme from the official University of Wisconsin–Oshkosh branding page
+because I wanted the website to match the school colors and feel connected to the campus.
+
 
 
 d. Document at least three intentional design choices you make for your site with
 your target audience/client in mind.
+
+Mobile-Friendly Navigation
+I added a hamburger menu for smaller screens because most students will probably use the site on their phones. This helps keep the navigation simple and easier to use on mobile devices.
+Service Cards with Images and Icons
+I used service cards with images and icons to help organize information and make the website more visually interesting. This also helps users quickly understand what services are available.
+Consistent School Branding
+I kept the UW-Oshkosh colors and theme consistent throughout the site to make it feel more professional and familiar to students.
+I also added hover effects and spacing between sections to make the site feel smoother and less crowded.
+
 
 e. Prior to submission, open your website in at least two different browsers. In your
 memo, document which browsers you tested in, and provide a description of how
 it looked in each? How similar or how different was the appearance in each?
 Anything of notice to comment on?
 
-
-
+I tested the website in both Google Chrome and Safari.
+The website looked very similar in both browsers. The navigation, images, buttons, and 
+layout all worked correctly, and the responsive design adjusted properly on different 
+screen sizes. One thing I noticed was that Safari displayed some spacing and fonts a 
+little differently compared to Chrome, but it was very minor and did not affect how the
+site worked. Overall, the website stayed consistent and functional across both browsers.
