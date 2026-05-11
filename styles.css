@@ -379,3 +379,15 @@ select {
     margin: 0 auto 20px;
     line-height: 1.6;
 }
+
+.lab-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.lab-images img {
+    max-width: 400px;
+    height: auto;
+}

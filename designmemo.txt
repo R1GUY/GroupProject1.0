@@ -5,6 +5,8 @@ b. Carefully plan the design for your layout and navigation. Consider drawing sk
 wireframes. Consider how your design should look/function across screen sizes.
 
 c. Intentionally choose a color scheme for your site and document how you chose it.
+I just chose the color scheme from the UW-Oshkosh Brand page
+
 
 d. Document at least three intentional design choices you make for your site with
 your target audience/client in mind.
